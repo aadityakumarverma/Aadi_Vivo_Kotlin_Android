@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Qualification">
+    <TextView
+        android:drawableStart="@drawable/arrow_back"
+        android:drawableEnd="@drawable/check"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="QUALIFICATION"
+        android:gravity="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="3dp"
+        android:background="#60000000"/>
+    <TextView
+        android:id="@+id/tvcon_list"
+        android:drawableEnd="@drawable/arrow_forward"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hannover Fair 2022"
+        android:textColor="@color/darker_gray"
+        android:textSize="14dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="5dp"
+        android:clickable="true"
+        android:layout_marginTop="5dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="3dp"
+        android:background="#60000000"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Client Description"
+            android:textSize="14dp"
+            android:paddingLeft="5dp"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wholesaler"
+            android:textSize="14dp"
+            android:checked="true"
+            android:paddingLeft="10dp"
+            android:textColor="@color/darker_gray"
+            android:buttonTint="@color/light_green"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Distributor"
+            android:textSize="14dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/darker_gray"
+            android:buttonTint="@color/light_green"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dealer"
+            android:textSize="14dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/darker_gray"
+            android:buttonTint="@color/light_green"
+            />
+
+    </RadioGroup>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="3dp"
+        android:background="#60000000"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Client Type"
+            android:textSize="14dp"
+            android:paddingLeft="5dp"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New client"
+            android:textSize="14dp"
+            android:checked="true"
+            android:paddingLeft="10dp"
+            android:textColor="@color/darker_gray"
+            android:buttonTint="@color/light_green"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Existing client"
+            android:textSize="14dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/darker_gray"
+            android:buttonTint="@color/light_green"
+            />
+
+    </RadioGroup>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="3dp"
+        android:background="#60000000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Business potential in USD"
+        android:textSize="14dp"
+        android:paddingLeft="5dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextborder"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="3dp"
+        android:background="#60000000"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Products"
+            android:textSize="14dp"
+            android:paddingLeft="5dp"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Domestic products"
+            android:textSize="14dp"
+            android:checked="true"
+            android:paddingLeft="10dp"
+            android:textColor="@color/darker_gray"
+            android:buttonTint="@color/light_green"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Commercial products"
+            android:textSize="14dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/darker_gray"
+            android:buttonTint="@color/light_green"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Household products"
+            android:textSize="14dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/darker_gray"
+            android:buttonTint="@color/light_green"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DIY products"
+            android:textSize="14dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/darker_gray"
+            android:buttonTint="@color/light_green"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Other products"
+            android:textSize="14dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/darker_gray"
+            android:buttonTint="@color/light_green"
+            />
+
+    </RadioGroup>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Country">
+    <TextView
+        android:drawableStart="@drawable/arrow_back"
+        android:drawableEnd="@drawable/check"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="SALES MATERIALS"
+        android:gravity="center"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lounge chair model FK-345"
+            android:textSize="14dp"
+            android:checked="true"
+            android:drawableEnd="@drawable/login"
+            android:paddingLeft="10dp"
+            android:textColor="@color/darker_gray"
+            android:buttonTint="@color/light_green"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Commercial products"
+            android:textSize="14dp"
+            android:drawableEnd="@drawable/login"
+            android:paddingLeft="10dp"
+            android:textColor="@color/darker_gray"
+            android:buttonTint="@color/light_green"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Households products"
+            android:textSize="14dp"
+            android:drawableEnd="@drawable/login"
+            android:paddingLeft="10dp"
+            android:textColor="@color/darker_gray"
+            android:buttonTint="@color/light_green"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DIY products"
+            android:textSize="14dp"
+            android:drawableEnd="@drawable/login"
+            android:paddingLeft="10dp"
+            android:textColor="@color/darker_gray"
+            android:buttonTint="@color/light_green"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Local products"
+            android:textSize="14dp"
+            android:drawableEnd="@drawable/login"
+            android:paddingLeft="10dp"
+            android:textColor="@color/darker_gray"
+            android:buttonTint="@color/light_green"
+            />
+
+    </RadioGroup>
+
+</LinearLayout>
